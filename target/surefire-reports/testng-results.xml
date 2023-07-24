@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Captureing screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Jul_24_23_08_42_IST_2023.JPG>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-24T17:38:42Z" name="Data Driven Test" finished-at="2023-07-24T17:38:57Z" duration-ms="15123">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T17:38:42Z" name="Login Test" finished-at="2023-07-24T17:38:57Z" duration-ms="15123">
+      <class name="com.udemy.testcases.AddCustomerTest">
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.udemy.testcases.AddCustomerTest@26d10f2e]" started-at="2023-07-24T17:38:51Z" name="addCustomerTest" data-provider="DP" finished-at="2023-07-24T17:38:57Z" duration-ms="5978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[354356.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.udemy.testcases.AddCustomerTest -->
+      <class name="com.udemy.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.udemy.testcases.LoginTest@70f43b45]" started-at="2023-07-24T17:38:39Z" name="setUp" finished-at="2023-07-24T17:38:42Z" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.udemy.testcases.LoginTest@70f43b45]" started-at="2023-07-24T17:38:42Z" name="loginAsBankManager" finished-at="2023-07-24T17:38:51Z" duration-ms="8763" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Captureing screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Jul_24_23_08_42_IST_2023.JPG>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.udemy.testcases.LoginTest@70f43b45]" started-at="2023-07-24T17:38:57Z" name="tearDown" finished-at="2023-07-24T17:38:58Z" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.udemy.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Data Driven Test -->
+</testng-results>
