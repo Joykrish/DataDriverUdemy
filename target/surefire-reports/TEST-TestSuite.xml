@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="14.993" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="15.423" tests="6" errors="0" skipped="1" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -25,9 +25,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\jaykishor data\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5159588235376899723.tmp"/>
+    <property name="classworlds.conf" value="D:\jaykishor data\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10021645689103386541.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="E:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;E:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;E:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\apache-maven-3.8.7\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\nodejs\;C:\apache-maven-3.8.7\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;E:\eclipse;;."/>
+    <property name="java.library.path" value="E:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;E:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\apache-maven-3.8.7\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\nodejs\;C:\apache-maven-3.8.7\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;E:\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -57,9 +57,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
-    <property name="m2e.build.project.data.socket.port" value="61501"/>
+    <property name="m2e.build.project.data.socket.port" value="50626"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginAsBankManager" classname="com.udemy.testcases.LoginTest" time="8.836"/>
-  <testcase name="addCustomerTest" classname="com.udemy.testcases.AddCustomerTest" time="6.157"/>
+  <testcase name="loginTest" classname="com.udemy.testcases.LoginTest" time="9.226"/>
+  <testcase name="addCustomerTest" classname="com.udemy.testcases.AddCustomerTest" time="6.197"/>
+  <testcase name="addCustomerTest" classname="com.udemy.testcases.AddCustomerTest" time="6.064"/>
+  <testcase name="addCustomerTest" classname="com.udemy.testcases.AddCustomerTest" time="5.704"/>
+  <testcase name="addCustomerTest" classname="com.udemy.testcases.AddCustomerTest" time="5.716"/>
+  <testcase name="openAccountTest" classname="com.udemy.testcases.OpenAccountTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Sheet name is openAccountTest
+]]></system-out>
+  </testcase>
 </testsuite>

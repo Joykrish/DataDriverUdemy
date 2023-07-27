@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Data Driven Test]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="com.udemy.Listners.CustomListners"/>
-  </listeners>
-  <test thread-count="5" name="Login Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.udemy.testcases.LoginTest">
+      <class name="com.udemy.testcases.OpenAccountTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginAsBankManager"/>
           <include name="tearDown"/>
+          <include name="openAccountTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.udemy.testcases.LoginTest -->
+      </class> <!-- com.udemy.testcases.OpenAccountTest -->
     </classes>
-  </test> <!-- Login Test(failed) -->
-</suite> <!-- Failed suite [Data Driven Test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

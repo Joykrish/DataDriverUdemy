@@ -6,6 +6,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
+
 import com.udemy.utilities.TestUtils;
 import com.relevantcodes.extentreports.LogStatus;
 import com.udemy.base.*;
@@ -15,6 +17,10 @@ public class CustomListners extends TestBase implements ITestListener{
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		test=report.startTest(result.getName().toUpperCase());
+		
+		if(!TestUtils.isTestRunnable(result.getName(), excel)){
+			throw  new SkipException("Slippint this test"+ result.getName().toUpperCase()+ "as run mode is NO");
+		}
 	}
 
 	@Override
@@ -49,7 +55,9 @@ public class CustomListners extends TestBase implements ITestListener{
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		test.log(LogStatus.SKIP, result.getName().toUpperCase()+" Skipped test");
+		report.endTest(test);
+		report.flush();
 	}
 
 	@Override

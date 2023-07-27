@@ -12,6 +12,7 @@
       
       <class name="com.udemy.testcases.LoginTest"/>
       <class name="com.udemy.testcases.AddCustomerTest"/>
+      <class name="com.udemy.testcases.OpenAccountTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

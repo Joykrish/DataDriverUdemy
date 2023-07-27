@@ -14,8 +14,10 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -144,6 +146,17 @@ public void type(String locator,String value) {
 	driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
 	}
 	test.log((LogStatus.INFO), "Typeing in "+locator+"Entered value as  "+value);
+}
+static WebElement dropdown;
+public void select(String locator,String value) {
+	
+	if(locator.endsWith("_Xpath")) {
+		dropdown=driver.findElement(By.xpath(OR.getProperty(locator)));
+	}
+	
+	Select select=new  Select(dropdown);
+	select.selectByVisibleText(value);
+	test.log((LogStatus.INFO), "Selecting "+locator+ " with  "+value);
 }
 
 public boolean isElementPresent(By by) {

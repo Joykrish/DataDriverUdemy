@@ -26,7 +26,9 @@ public static String screenshotPath;
 	}
 	@DataProvider(name="DP")
 	public Object[][] getData(Method m) {
+		
 		String sheetName=m.getName();
+		System.out.println("Sheet name is "+sheetName);
 		int rows = excel.getRowCount(sheetName);
 		int cols = excel.getColumnCount(sheetName);
 		
@@ -36,11 +38,29 @@ public static String screenshotPath;
 		for (int rowNum = 2; rowNum <= rows; rowNum++) {
 			for (int colNum = 0; colNum < cols; colNum++) {
 
-				data[rowNum - 2][colNum] = excel.getCellData("AddCustomerTest", colNum, rowNum);
+				data[rowNum - 2][colNum] = excel.getCellData(sheetName, colNum, rowNum);
 
 			}
 
 		}
 		return data;
 	}
-}
+	
+	public static boolean isTestRunnable(String testName,ExcelReader excel) {
+		String excelSheet="TestSuite";
+		int rows=excel.getRowCount(excelSheet);
+		for(int rNum=2;rNum<=rows;rNum++) {
+			String testCase=excel.getCellData(excelSheet, "TCID", rNum);
+			if(testCase.equalsIgnoreCase(testName)) {
+				String runmode=excel.getCellData(excelSheet, "RUNMODE", rNum);
+				if(runmode.equalsIgnoreCase("Y")) 
+					return true;
+					else 
+						return false;
+				}
+			}
+		return false;
+		}
+		
+	}
+

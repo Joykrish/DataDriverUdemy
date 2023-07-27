@@ -15,7 +15,7 @@ import com.udemy.base.TestBase;
 
 public class LoginTest extends TestBase {
 	@Test
-	public void loginAsBankManager() throws InterruptedException, IOException {
+	public void loginTest() throws InterruptedException, IOException {
 		
 		log.debug("Inside Login test");
 		verifyEqual("abc", "xyz");
