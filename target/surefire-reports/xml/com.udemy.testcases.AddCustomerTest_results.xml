@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Login Test"
-           tests="4"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="23.057">
+           time="17.779">
   <properties />
   
   
-            <testcase name="addCustomerTest" time="6.017" classname="com.udemy.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="5.889" classname="com.udemy.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="5.571" classname="com.udemy.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="5.580" classname="com.udemy.testcases.AddCustomerTest" />
+            <testcase name="addCustomerTest" time="6.080" classname="com.udemy.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="5.507" classname="com.udemy.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="6.192" classname="com.udemy.testcases.AddCustomerTest" />
       
 </testsuite>

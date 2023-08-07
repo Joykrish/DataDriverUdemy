@@ -8,13 +8,13 @@
   </listeners>
   <test thread-count="5" name="Login Test(failed)">
     <classes>
-      <class name="com.udemy.testcases.LoginTest">
+      <class name="com.udemy.testcases.AddCustomerTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginAsBankManager"/>
           <include name="tearDown"/>
+          <include name="addCustomerTest" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.udemy.testcases.LoginTest -->
+      </class> <!-- com.udemy.testcases.AddCustomerTest -->
     </classes>
   </test> <!-- Login Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Test] -->

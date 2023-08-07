@@ -1,9 +1,7 @@
-DEBUG   2023-07-27 12:26:11,931 [main] devpinoyLogger  - Config file loaded!!!
-DEBUG   2023-07-27 12:26:11,935 [main] devpinoyLogger  - OR file loaded!!!
-DEBUG   2023-07-27 12:26:14,372 [main] devpinoyLogger  - Chrome Launched
-DEBUG   2023-07-27 12:26:14,912 [main] devpinoyLogger  - URL launched =https://www.way2automation.com/angularjs-protractor/banking/#/login
-DEBUG   2023-07-27 12:26:15,186 [main] devpinoyLogger  - Inside Login test
-DEBUG   2023-07-27 12:26:24,309 [main] devpinoyLogger  - into try
-DEBUG   2023-07-27 12:26:24,334 [main] devpinoyLogger  - Login successfully executed
-DEBUG   2023-07-27 12:26:48,573 [main] devpinoyLogger  - Test execution completed
-INFO    2023-07-27 12:26:48,574 [main] devpinoyLogger  - Testing log
+DEBUG   2023-07-27 16:21:14,863 [main] devpinoyLogger  - Config file loaded!!!
+DEBUG   2023-07-27 16:21:14,868 [main] devpinoyLogger  - OR file loaded!!!
+DEBUG   2023-07-27 16:21:16,956 [main] devpinoyLogger  - Chrome Launched
+DEBUG   2023-07-27 16:21:17,395 [main] devpinoyLogger  - URL launched =https://www.way2automation.com/angularjs-protractor/banking/#/login
+DEBUG   2023-07-27 16:21:17,597 [main] devpinoyLogger  - Inside Login test
+DEBUG   2023-07-27 16:21:26,462 [main] devpinoyLogger  - into try
+DEBUG   2023-07-27 16:21:26,486 [main] devpinoyLogger  - Login successfully executed

@@ -19,8 +19,8 @@ public class CustomListners extends TestBase implements ITestListener{
 		test=report.startTest(result.getName().toUpperCase());
 		
 		if(!TestUtils.isTestRunnable(result.getName(), excel)){
-			throw  new SkipException("Slippint this test"+ result.getName().toUpperCase()+ "as run mode is NO");
-		}
+			  Reporter.log("Into skip"); 
+			  throw new SkipException("Slippint this test openAccountTest as run mode is NO"); }
 	}
 
 	@Override

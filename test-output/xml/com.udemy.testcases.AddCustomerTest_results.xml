@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Login Test"
-           tests="1"
+           tests="3"
            failures="0"
            errors="0"
-           skipped="0"
-           time="6.379">
+           skipped="2"
+           time="6.448">
   <properties />
   
+            <testcase name="addCustomerTest" time="0.0" classname="com.udemy.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="addCustomerTest" time="0.0" classname="com.udemy.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="addCustomer" time="6.379" classname="com.udemy.testcases.AddCustomerTest" />
+            <testcase name="addCustomerTest" time="6.439" classname="com.udemy.testcases.AddCustomerTest" />
       
 </testsuite>

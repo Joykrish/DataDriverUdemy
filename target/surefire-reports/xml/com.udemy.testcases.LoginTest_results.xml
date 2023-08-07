@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.173">
+           time="9.202">
   <properties />
   
   
-            <testcase name="loginTest" time="9.173" classname="com.udemy.testcases.LoginTest" />
+            <testcase name="loginTest" time="9.202" classname="com.udemy.testcases.LoginTest" />
       
 </testsuite>
